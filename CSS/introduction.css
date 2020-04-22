@@ -1,0 +1,28 @@
+/*	Learning Outcomes
+
+		1. CSS Selectors
+		2. CSS Box Model
+		3. CSS Margins and Padding
+		4. CSS Background colour and font property
+
+	What is CSS?
+
+		- Cascading Style Sheets (CSS)
+		- Describes how HTML elements should be displayed on the web page
+		- It is a style language and not a programming language
+
+		//Syntax
+
+		p{
+			color:blue;
+		}
+			
+			{//Explaining the syntax
+
+			p = selector
+			color = property
+			blue = value
+			color:blue = declaration
+			
+			}
+		*/
