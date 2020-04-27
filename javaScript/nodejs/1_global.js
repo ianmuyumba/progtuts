@@ -1,5 +1,10 @@
 /*
-The Global object - There are a couple of global objects and associated methods you can invoke
+    The Global Objects
+     - Global Objects are objects available in all modules
+     - There are a couple of global objects and associated methods you can invoke
+
+
+
 */
 
 console.log("My name is Ian");
