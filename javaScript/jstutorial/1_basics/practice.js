@@ -10,3 +10,8 @@ var emailAddress = prompt("Enter your email address: ");
 alert("Name: " + fullName);
 alert("Name: " + age);
 alert("Name: " + emailAddress);
+
+// Displaying variables
+var a = "Ian";
+var b = "Muyumba";
+console.log(`NAME: ${a}${" "}${b}`);
