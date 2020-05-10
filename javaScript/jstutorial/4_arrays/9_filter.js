@@ -4,16 +4,16 @@
 */
 
 
-// var myNumbers = [1,2,3,4,5,6,7,8,9];
-//
-// var newNumbers = myNumbers.filter(
-//   function(element) {
-//     return element > 5; // Set constraint to print out all numbers greater than 5
-//   }
-// )
-//
-// console.log(myNumbers);
-// console.log(newNumbers);
+var myNumbers = [1,2,3,4,5,6,7,8,9];
+
+var newNumbers = myNumbers.filter(
+  function(element) {
+    return element > 5; // Set constraint to print out all numbers greater than 5
+  }
+)
+
+console.log(myNumbers);
+console.log(newNumbers);
 
 
 var myArrays = [

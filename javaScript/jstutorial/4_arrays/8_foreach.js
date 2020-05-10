@@ -5,13 +5,13 @@
 
 
 var myBeers = ["Whitecap", "Tusker", "Guiness", "Balozi"];
-// console.log(myBeers);
+console.log(myBeers);
 
-// myBeers.forEach(
-//   function() {
-//     console.log("Wabebee");
-//   }
-// )
+myBeers.forEach(
+  function() {
+    console.log("Wabebee");
+  }
+)
 
 /*
   - The Callcack can be invoked with three arguments:
@@ -28,9 +28,9 @@ myBeers.forEach(
 
 myBeers.forEach(
   function(element, index) {
-    // console.log(typeof index);
-    // // Print out all elements with their respective indexes
-    // console.log(element + " is at index " + sumAdd);
+    console.log(typeof index);
+    // Print out all elements with their respective indexes
+    console.log(element + " is at index " + sumAdd);
 
     // Print out all elements with their respective (indexes+1)
     var sumAdd = index + 1; // Define a variable that holds sum of index + 1
