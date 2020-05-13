@@ -11,4 +11,19 @@ var newInts = myInts.map(
   }
 )
 
+console.log(myInts);
 console.log(newInts);
+
+
+// Convert an array of lower case letters into upper case
+
+var lowerCase = ["a", "b", "c", "d", "e"];
+
+var upperCase = lowerCase.map(
+  function(element){
+    return element.toUpperCase();
+  }
+)
+
+console.log(lowerCase);
+console.log(upperCase);
