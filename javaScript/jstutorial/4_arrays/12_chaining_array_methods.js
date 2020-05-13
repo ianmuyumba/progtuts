@@ -22,3 +22,27 @@ var upperLongLanguages = longLanguages.map(
 )
 
 console.log(upperLongLanguages);
+
+
+/*
+  - We can chain the two methods above into simpler code, as below
+*/
+
+var myLanguages = ["JavaScript", "Python", "PhP", "Ruby"];
+console.log(myLanguages);
+
+var longUpperCase = myLanguages.filter(
+  function(element){
+    return element.length > 5;
+  }
+).map(
+  function(element){
+    return element.toUpperCase();
+  }
+).reduce(
+  function(accumulator, element) {
+    return accumulator + " " + element // Join the array elements into a string
+  }, ""
+)
+
+console.log(longUpperCase);
