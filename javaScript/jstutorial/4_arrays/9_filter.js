@@ -22,7 +22,7 @@ var myArrays = [
 ]
 
 var newArrays = myArrays.filter(
-  function(element){
+  function(){
     return myArrays.length < 5;
   }
 )
