@@ -161,3 +161,66 @@
 // console.log(checkPalindrome("shiononyia"));
 
 // Reduce() function
+
+
+/*
+    Check if an Integer is Divisible By Five
+      - Create a function that returns true if an integer is evenly divisible
+      by 5, and false otherwise
+
+      // Examples
+      divisibleByFive(5) ➞ true
+      divisibleByFive(-55) ➞ true
+      divisibleByFive(37) ➞ false
+*/
+
+// function divisibleByFive(n) {
+//   if ((n % 5) === 0) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+//
+// divisibleByFive(5);
+
+/*
+    Convert Number to Corresponding Month Name
+      - Create a function that takes a number (from 1 to 12) and returns its
+      corresponding month name as a string. For example, if you're given 3 as
+      input, your function should return "March", because March is the 3rd month.
+
+      // Examples
+      monthName(3) ➞ "March"
+      monthName(12) ➞ "December"
+      monthName(6) ➞ "June"
+*/
+
+function monthName(num) {
+  if (num === 1) {
+    console.log("January");
+  // } else if (num === 2) {
+  //   return "February"
+  // } else if (num === 3) {
+  //   return "March"
+  // }else if (num === 4) {
+  //   return "April"
+  // }else if (num === 5) {
+  //   return "May"
+  // }else if (num === 6) {
+  //   return "June"
+  // }else if (num === 7) {
+  //   return "July"
+  // }else if (num === 8) {
+  //   return "August"
+  // }else if (num === 9) {
+  //   return "September"
+  // }else if (num === 10) {
+  //   return "October"
+  // }else if (num === 11) {
+  //   return "November"
+  // }else if (num === 12) {
+  //   return "December"
+  }
+
+monthName(1)
