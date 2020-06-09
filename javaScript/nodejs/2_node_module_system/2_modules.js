@@ -25,3 +25,12 @@
 // Loading a module - require function
 var exported = require('./app.js'); // The require function returns the object exported from the target module
 console.log(exported);
+
+
+// Module Wrapper Function
+ /*
+  Node does not execute code directly.
+  It wraps it into a function for execution -> Module Wrapper Function
+ */
+
+ //
