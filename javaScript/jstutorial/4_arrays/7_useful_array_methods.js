@@ -20,8 +20,8 @@ console.log(fruits1);
 console.log(fruits2);
 console.log(concatArray);
 
-INDEX OF METHOD - Returns the first index at which an item occurs in an array
-If the item doesn't occur, it returns -1
+// INDEX OF METHOD - Returns the first index at which an item occurs in an array
+// If the item doesn't occur, it returns -1
 
 var fruits3 = ["Mango", "Orange", "Apple", "Pineapple", "Melon", "Banana"];
 var myAges = [20,21,22,23,24,25];
@@ -35,7 +35,7 @@ console.log(agesIndex);
 var fruitIndex = fruits3.indexOf("Machungwa"); // returns -1 when the item is not in the array
 console.log(fruitIndex);
 
-If Statement to check if element is in array
+// If Statement to check if element is in array
 
 if (myAges.indexOf(23) === -1) {
   console.log("It is NOT in the array");
