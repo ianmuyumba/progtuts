@@ -23,7 +23,16 @@ const club = {
   leaguePosition: {
     // Insert method to calculate league position
   },
-  homeground: "Ruaraka"
-
+  homeground: "Ruaraka",
+// The object can also have methods used to change the properties of the object
 
 }
+
+// This keyword is used to refer to the current object
+
+/*
+Variable declaration - An object needs a variable to live in and a name.
+  - It can be a variable or constant (var / const / let)
+  - Objects are typically constants. We can change the properties of the object inside the container but cant 
+  remove or replace the object from the container
+*/
