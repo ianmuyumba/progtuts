@@ -1,0 +1,34 @@
+    <!-- 
+        - The <script> tag is used to embed executable code (Javascript) into an HTML document
+        - It includes the following global attributes
+            * async - Evaluated as soon as it is available
+            * defer - Evaluates after the document has been parsed but before firing DOMContentLoaded
+                    - Scripts with the defer attribute will execute in the order in which they appear in the document
+            * src - Specifies the URL of an existing external script
+    -->
+
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    
+    <h1>Ian</h1>
+    
+    <script src="intro.js" defer></script> // Defer keyword is important to load HTML before parsing Js
+    
+    <script async>
+
+    </script>
+    
+    // JavaScript Modules - Used when loading more than one Js file. Deffered automatically (loads after HTML)
+    
+    <script type="module" src="intro.js"></script>
+    <script type="module" src="intro.js"></script>
+    
+    
+    </body>
+    </html>
+    
